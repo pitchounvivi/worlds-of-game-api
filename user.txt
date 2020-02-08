@@ -1,0 +1,23 @@
+{
+"email": "userMail",
+"password": "userPassword",
+"surname": "userSurname",
+"firstName": "userFirstName",
+"lastName": "userLastName",
+"phone": "userPhone",
+"adress": "userAdress",
+"city": "userCity",
+"zip": "userZip",
+"token": "userToken"
+}
+
+
+SELECT email, password FROM users WHERE email = 'userMail' AND password = 'userPassword' 
+
+login?email=USER_EMAIL&password=USER_PASSWORD
+
+login?email=userMail&password=userPassword
+
+
+pour supprimer :
+users/chiffre?token=le token du user

@@ -1,0 +1,15 @@
+{
+    "name": "administrateur/worlds-of-game-api",
+    "authors": [
+        {
+            "name": "pitchounvivi",
+            "email": "pitchounvivi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wog\\": "src/"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,51 @@
+{
+
+  "DocumentationController::retrieve": {
+    "path": "/",
+    "method": "get",
+    "controller": "Wog\\Controller\\DocumentationController",
+    "action": "retrieve"
+  },
+
+  "UserController::deleteOne": {
+    "path": "/users/([1-9]{1}[0-9]{0,4})",
+    "method": "delete",
+    "controller": "Wog\\Controller\\Api\\UserController",
+    "action": "delete"
+  },
+
+  "UserController::update": {
+    "path": "/users",
+    "method": "put",
+    "controller": "Wog\\Controller\\Api\\UserController",
+    "action": "put"
+  },
+
+  "UserController::create": {
+    "path": "/users",
+    "method": "post",
+    "controller": "Wog\\Controller\\Api\\UserController",
+    "action": "create"
+  },
+
+  "UserController::retrieveOne": {
+    "path": "/users/([1-9]{1}[0-9]{0,4})",
+    "method": "get",
+    "controller": "Wog\\Controller\\Api\\UserController",
+    "action": "retrieve"
+  },
+
+  "UserController::retrieve": {
+    "path": "/users",
+    "method": "get",
+    "controller": "Wog\\Controller\\Api\\UserController",
+    "action": "retrieve"
+  },
+
+  "LoginController::retrieve": {
+    "path": "/login",
+    "method": "get",
+    "controller": "Wog\\Controller\\Api\\LoginController",
+    "action": "retrieve"
+  }
+}
